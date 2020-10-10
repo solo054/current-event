@@ -1,5 +1,11 @@
 section {
-  height: 70vh;
+  height: 120vh;
+}
+
+img,
+div {
+  -webkit-transition: all 1.2s ease-in-out;
+  transition: all 1.2s ease-in-out;
 }
 
 #current-event {
@@ -16,6 +22,9 @@ section {
 
 #current-event img {
   width: 600px;
+  -webkit-transform: translateX(-60px);
+          transform: translateX(-60px);
+  opacity: 0;
 }
 
 #current-event div {
@@ -24,6 +33,9 @@ section {
   margin-left: -150px;
   padding: 50px;
   color: #fff;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+  opacity: 0;
 }
 
 #current-event div h2 {
@@ -41,5 +53,17 @@ section {
   font-size: small;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+#current-event img.to-right {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  opacity: 1;
+}
+
+#current-event div.to-left {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  opacity: 1;
 }
 /*# sourceMappingURL=current-event.css.map */
