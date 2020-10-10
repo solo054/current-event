@@ -1,0 +1,45 @@
+section {
+  height: 70vh;
+}
+
+#current-event {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 100px;
+  background-color: #f5f6f7;
+}
+
+#current-event img {
+  width: 600px;
+}
+
+#current-event div {
+  background-color: #f1f2f4;
+  background-color: #F7882F;
+  margin-left: -150px;
+  padding: 50px;
+  color: #fff;
+}
+
+#current-event div h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#current-event div p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+#current-event div a {
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=current-event.css.map */

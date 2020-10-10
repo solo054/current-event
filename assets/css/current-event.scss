@@ -1,0 +1,41 @@
+section {
+  height: 70vh;
+}
+
+#current-event {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: #f5f6f7;
+
+  img {
+    width: 600px;
+  }
+
+  div {
+    background-color: #f1f2f4;
+    background-color: #F7882F;
+    margin-left: -150px;
+    padding: 50px;
+    color: #fff;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    p {
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      font-weight: bold;
+      font-size: small;
+      // color: #fd6001;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}
